@@ -24,8 +24,10 @@ export default class Add extends React.Component{
       <div>
         <CustomBreadcrumb arr={['添加']}/>
         <Card bordered={false} className='card-item'>
-              <Dropdown overlay={menu2}><a href="">Cascading menu <Icon type="down"/></a></Dropdown>&emsp;&emsp;
+              {/* <Dropdown overlay={menu2}><a href="">Cascading menu <Icon type="down"/></a></Dropdown>&emsp;&emsp; */}
+              <text>添加至&nbsp;&nbsp;&nbsp;&nbsp;</text>
               <Dropdown overlay={menu2}><Button>Cascading menu <Icon type="down"/></Button></Dropdown>
+              <a href='#'>&nbsp;&nbsp;&nbsp;&nbsp;配置栏目</a>
         </Card>
       </div>
     )

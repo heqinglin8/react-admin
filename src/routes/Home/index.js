@@ -56,28 +56,28 @@ class Home extends React.Component {
               <p />
               <text>基本信息</text>
             </Col>
-            <Icon type="double-right" style={{ fontSize: 28, alignSelf: 'center' }} />
+            <Icon type="double-right" style={{ fontSize: 28, alignSelf: 'center', color:'#BBBBBB' }} />
 
             <Col span={4} style={{ marginHorizontal: 10, paddingVertical: 15 }} align='middle'>
               <Icon type="setting" style={{ fontSize: 28 }} />
               <p />
               <text>配置栏目</text>
             </Col>
-            <Icon type="double-right" style={{ fontSize: 28, alignSelf: 'center' }} />
+            <Icon type="double-right" style={{ fontSize: 28, alignSelf: 'center'  ,color:'#BBBBBB'}} />
 
             <Col span={4} style={{ marginHorizontal: 10, paddingVertical: 15 }} align='middle'>
               <Icon type="layout" style={{ fontSize: 28 }} />
               <p />
               <text>调试外观</text>
             </Col>
-            <Icon type="double-right" style={{ fontSize: 28, alignSelf: 'center' }} />
+            <Icon type="double-right" style={{ fontSize: 28, alignSelf: 'center' ,color:'#BBBBBB' }} />
 
             <Col span={4} style={{ marginHorizontal: 10, paddingVertical: 15 }} align='middle'>
               <Icon type="plus" style={{ fontSize: 28 }} />
               <p />
               <text>发布内容</text>
             </Col>
-            <Icon type="double-right" style={{ fontSize: 28, alignSelf: 'center' }} />
+            <Icon type="double-right" style={{ fontSize: 28, alignSelf: 'center' ,color:'#BBBBBB' }} />
 
             <Col span={4} style={{ marginHorizontal: 10, paddingVertical: 15 }} align='middle'>
               <Icon type="share-alt" style={{ fontSize: 28 }} />
