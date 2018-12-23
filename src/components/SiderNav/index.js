@@ -12,9 +12,9 @@ const menus = [
     icon: 'book',
     key: '/home/general',
     subs: [
-      {key: '/home/general/add', title: '添加', icon: 'plus',},
-      {key: '/home/general/manager', title: '管理', icon: 'appstore',},
-      {key: '/home/general/manager1', title: '栏目', icon: 'gold',},
+      {key: '/content/add', title: '添加', icon: 'plus',},
+      {key: '/content/manager', title: '管理', icon: 'appstore',},
+      {key: '/content/manager1', title: '栏目', icon: 'gold',},
     ]
   },
   {
