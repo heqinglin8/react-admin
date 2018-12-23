@@ -1,6 +1,6 @@
 import React from 'react'
 import CustomMenu from "../CustomMenu/index";
-
+{/* <Icon type="project" /> */}
 const menus = [
   {
     title: '首页',
@@ -8,9 +8,53 @@ const menus = [
     key: '/home'
   },
   {
-    title: '幻灯片',
-    icon: 'home',
-    key: '/slide'
+    title: '内容',
+    icon: 'book',
+    key: '/home/general',
+    subs: [
+      {key: '/home/general/add', title: '添加', icon: 'plus',},
+      {key: '/home/general/manager', title: '管理', icon: 'appstore',},
+      {key: '/home/general/manager1', title: '栏目', icon: 'gold',},
+    ]
+  },
+  {
+    title: '设置',
+    icon: 'book',
+    key: '/home/general2',
+    subs: [
+      {key: '/home/general/manager2', title: '基本信息', icon: 'plus',},
+      {key: '/home/general/manager3', title: '语言', icon: 'appstore',},
+      {key: '/home/general/manage4', title: '图片水印', icon: 'appstore',},
+      {key: '/home/general/manager5', title: '检测更新', icon: 'appstore',},
+    ]
+  },
+  {
+    title: '营销',
+    icon: 'book',
+    key: '/home/general2',
+    subs: [
+      {key: '/home/general/kefu', title: '客服', icon: 'plus',},
+      {key: '/home/general/seo', title: 'SEO', icon: 'appstore',},
+      {key: '/home/general/link', title: '友情链接', icon: 'appstore',},
+    ]
+  },
+  {
+    title: '用户',
+    icon: 'user',
+    key: '/home/user',
+    subs: [
+      {key: '/home/general/users', title: '客服', icon: 'user',},
+      {key: '/home/general/admin', title: 'SEO', icon: 'user',},
+    ]
+  },
+  {
+    title: '安全',
+    icon: 'user',
+    key: '/home/safeindex',
+    subs: [
+      {key: '/home/general/safe', title: '安全与效率', icon: 'safety',},
+      {key: '/home/general/backup', title: '备份与回复', icon: 'copy',},
+    ]
   },
   {
     title: '基本组件',
@@ -88,7 +132,12 @@ const menus = [
     title: '关于',
     icon: 'info-circle-o',
     key: '/home/about'
-  }
+  },
+  {
+    title: '幻灯片',
+    icon: 'home',
+    key: '/slide'
+  },
 ]
 
 

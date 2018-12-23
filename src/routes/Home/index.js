@@ -35,11 +35,12 @@ class Home extends React.Component {
       }
     ];
     const data = [
-      'Racing car sprays burning fuel into crowd.',
+      '关于即将上调米拓建站相关产品价格的通知',
       'Japanese princess to wed commoner.',
       'Australian walks 100km after outback crash.',
       'Man charged over missing wedding girl.',
       'Los Angeles battles huge wildfires.',
+      '备案新站上线1天就有百度排名！'
     ];
     return (
       <div className='home'>
@@ -118,8 +119,9 @@ class Home extends React.Component {
           <div style={styles.news_content}>
             {data.map((item) => {
               return (
-                <div style={{ borderBottom: '1px solid #cccccc', paddingTop: 10, paddingBottom: 10 }}>
-                  <text>{item}</text>
+                <div style={styles.news_content_item}>
+                  <a href="#" style={styles.news_content_title}>{item}</a>
+                  <a href="#" style={styles.news_content_time}>2018-12-01</a>
                 </div>
               )
             })}
@@ -159,6 +161,21 @@ const styles = {
   news_content: {
     paddingLeft: 15,
     paddingRight: 15,
+  },
+  news_content_title: {
+    color: '#666666',
+    flex: 1
+  },
+  news_content_time: {
+    color: '#666666',
+    fontSize: 12
+  },
+  news_content_item: {
+    display: 'flex',
+    flexDirection: 'row',
+    borderBottom: '1px solid #eeeeee',
+    paddingTop: 10,
+    paddingBottom: 10
   }
 }
 
