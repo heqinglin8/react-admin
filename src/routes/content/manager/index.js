@@ -50,14 +50,6 @@ const styles = {
   h_line: {
     backgroundColor: '#cccccc',
     height: 1
-  },
-  app_content: {
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    paddingLeft: 15,
-    paddingRight: 15,
-    paddingBottom: 15,
-  },
+  }
 
 }

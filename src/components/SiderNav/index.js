@@ -14,7 +14,7 @@ const menus = [
     subs: [
       {key: '/content/add', title: '添加', icon: 'plus',},
       {key: '/content/manager', title: '管理', icon: 'appstore',},
-      {key: '/content/manager1', title: '栏目', icon: 'gold',},
+      // {key: '/content/category', title: '栏目', icon: 'gold',},
     ]
   },
   {

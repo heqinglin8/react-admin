@@ -44,6 +44,8 @@ const SpringText = LoadableComponent(()=>import('../../routes/Other/SpringText/i
 //关于
 const About = LoadableComponent(()=>import('../../routes/About/index'))
 const Add = LoadableComponent(()=>import('../../routes/content/Add'))
+const Manager = LoadableComponent(()=>import('../../routes/content/manager/index'))
+const Category = LoadableComponent(()=>import('../../routes/content/manager/category'))
 
 @withRouter
 class ContentMain extends React.Component {
@@ -85,6 +87,8 @@ class ContentMain extends React.Component {
 
           <PrivateRoute exact path='/home/about' component={About}/>
           <PrivateRoute exact path='/content/add' component={Add}/>
+          <PrivateRoute exact path='/content/manager' component={Manager}/>
+          <PrivateRoute exact path='/content/category' component={Category}/>
 
           <Redirect exact from='/' to='/home'/>
         </Switch>
